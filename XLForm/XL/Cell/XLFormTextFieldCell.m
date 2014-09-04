@@ -162,6 +162,7 @@
 {
     if (_textField) return _textField;
     _textField = [UITextField autolayoutView];
+    [_textField setTextAlignment:NSTextAlignmentRight];
     [_textField setFont:[UIFont preferredFontForTextStyle:UIFontTextStyleBody]];
     return _textField;
 }
@@ -193,10 +194,10 @@
     }
     else{
         if (self.textLabel.text.length > 0){
-            self.dynamicCustomConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-16-[label]-[textField]-4-|" options:0 metrics:0 views:views];
+            self.dynamicCustomConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-16-[label]-[textField]-10-|" options:0 metrics:0 views:views];
         }
         else{
-            self.dynamicCustomConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-16-[textField]-4-|" options:0 metrics:0 views:views];
+            self.dynamicCustomConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-16-[textField]-10-|" options:0 metrics:0 views:views];
         }
     }
     [self.contentView addConstraints:self.dynamicCustomConstraints];
