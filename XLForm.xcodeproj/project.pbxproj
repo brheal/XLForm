@@ -69,7 +69,6 @@
 		28E093EB18F4C28200E218ED /* XLFormRightDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E093EA18F4C28200E218ED /* XLFormRightDetailCell.m */; };
 		2CA9A3FC06E94345A2FDE415 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DF43B7BBF44F72A4493E8E /* libPods.a */; };
 		3C3360B3193E43D800BA9C4A /* XLFormSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3360B2193E43D800BA9C4A /* XLFormSegmentedCell.m */; };
-		9398C30A19C7CED5007BFF0B /* XLFormDaysOfWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398C30919C7CED5007BFF0B /* XLFormDaysOfWeekCell.m */; };
 		D51B8B2C19126664008C0478 /* XLFormCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B8B2B19126664008C0478 /* XLFormCustomCell.m */; };
 		D55C39BE191BCA460090B6B4 /* XLFormStepCounterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C39BD191BCA460090B6B4 /* XLFormStepCounterCell.m */; };
 		DCC8167B19A3F8E30071915C /* XLFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC8167A19A3F8E30071915C /* XLFormSliderCell.m */; };
@@ -196,8 +195,6 @@
 		3C3360B1193E43D800BA9C4A /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSegmentedCell.h; sourceTree = "<group>"; };
 		3C3360B2193E43D800BA9C4A /* XLFormSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSegmentedCell.m; sourceTree = "<group>"; };
 		72E6DF463B884AB3934DD04A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		9398C30819C7CED5007BFF0B /* XLFormDaysOfWeekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDaysOfWeekCell.h; sourceTree = "<group>"; };
-		9398C30919C7CED5007BFF0B /* XLFormDaysOfWeekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDaysOfWeekCell.m; sourceTree = "<group>"; };
 		D51B8B2A19126664008C0478 /* XLFormCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLFormCustomCell.h; path = Examples/Others/CustomCells/XLFormCustomCell.h; sourceTree = "<group>"; };
 		D51B8B2B19126664008C0478 /* XLFormCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLFormCustomCell.m; path = Examples/Others/CustomCells/XLFormCustomCell.m; sourceTree = "<group>"; };
 		D55C39BC191BCA460090B6B4 /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormStepCounterCell.h; sourceTree = "<group>"; };
@@ -444,8 +441,6 @@
 		2850C62D18D0F9A6002B7D0A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				9398C30819C7CED5007BFF0B /* XLFormDaysOfWeekCell.h */,
-				9398C30919C7CED5007BFF0B /* XLFormDaysOfWeekCell.m */,
 				28A85D5718E346C100E81A26 /* XLFormImageSelectorCell.h */,
 				28A85D5818E346C100E81A26 /* XLFormImageSelectorCell.m */,
 				D55C39BC191BCA460090B6B4 /* XLFormStepCounterCell.h */,
@@ -723,7 +718,6 @@
 				28A7665E1932F61100D69546 /* DynamicSelectorsFormViewController.m in Sources */,
 				281E5BE919538F4A006D93C5 /* CLLocationValueTrasformer.m in Sources */,
 				2843EB5618D4F7B700F13E2B /* DatesFormViewController.m in Sources */,
-				9398C30A19C7CED5007BFF0B /* XLFormDaysOfWeekCell.m in Sources */,
 				2843EB5918D5050500F13E2B /* NSObject+XLFormAdditions.m in Sources */,
 				28468EA118ECAE1200DBB015 /* XLFormTextView.m in Sources */,
 				283C6B7D1999BAF100A5283D /* UICustomizationFormViewController.m in Sources */,
