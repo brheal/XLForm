@@ -56,7 +56,7 @@
 #import "XLFormSwitchCell.h"
 #import "XLFormCheckCell.h"
 #import "XLFormDatePickerCell.h"
-]#import "XLFormPickerCell.h"
+#import "XLFormPickerCell.h"
 #import "XLFormLeftRightSelectorCell.h"
 #import "XLFormDateCell.h"
 #import "XLFormStepCounterCell.h"
